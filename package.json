@@ -57,7 +57,6 @@
     "conventional-changelog-cli": "^2.2.2",
     "eslint": "^8.0.0",
     "jest": "^27.0.6",
-    "jimp": "^0.22.12",
     "json": "^11.0.0",
     "link-preview-js": "^3.0.5",
     "open": "^8.4.2",
