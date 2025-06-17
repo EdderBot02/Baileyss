@@ -1,0 +1,96 @@
+{
+  "name": "@whiskeysockets/baileys",
+  "version": "9.1.9",
+  "description": "Baileys is a lightweight JavaScript library for interacting with the WhatsApp Web API using WebSocket.",
+  "keywords": [
+    "facebook",
+    "metaplatforms",
+    "baileys",
+    "interactive",
+    "meta",
+    "whatsapp",
+    "whatsapp-bot"
+  ],
+  "homepage": "https://developers.facebook.com/docs/whatsapp/",
+  "repository": {
+    "url": "https://web.whatsapp.com/"
+  },
+  "license": "MIT",
+  "author": "Meta Platforms, Inc.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/*",
+    "WAProto/*",
+    "WASignalGroup/*.js"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "@hapi/boom": "^9.1.3",
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "@cacheable/node-cache": "1.5.3", 
+    "@adiwajshing/eslint-config": "github:adiwajshing/eslint-config",
+    "libsignal": "npm:@meta.inc/libsignal@*",
+    "async-mutex": "^0.5.0",
+    "futoin-hkdf": "^1.5.1",
+    "axios": "^1.6.0",
+    "cache-manager": "^5.7.6", 
+    "protobufjs": "^6.11.3",
+    "lodash": "^4.17.21",
+    "music-metadata": "^7.12.3",
+    "pino": "^9.6",
+    "protobufjs": "^7.2.4",
+    "async-lock": "^1.4.1",
+    "audio-decode": "^2.1.3",
+    "node-cache": "^5.1.2",
+    "uuid": "^10.0.0",
+    "protobufjs": "^6.11.3",
+    "mysql2": "latest", 
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.5.1",
+    "@types/node": "^16.0.0",
+    "@types/ws": "^8.0.0",
+    "conventional-changelog-cli": "^2.2.2",
+    "eslint": "^8.0.0",
+    "jest": "^27.0.6",
+    "jimp": "^0.22.12",
+    "json": "^11.0.0",
+    "link-preview-js": "^3.0.5",
+    "open": "^8.4.2",
+    "release-it": "^15.10.3",
+    "sharp": "^0.32.6",
+    "ts-jest": "^27.0.3",
+    "ts-node": "^10.8.1",
+    "typedoc": "^0.27.9",
+    "typedoc-plugin-markdown": "4.4.2",
+    "typescript": "^5.8.2"
+  },
+  "peerDependencies": {
+    "audio-decode": "^2.1.3",
+    "jimp": "^0.22.12",
+    "link-preview-js": "^3.0.0",
+    "sharp": "^0.32.6"
+  },
+  "peerDependenciesMeta": {
+    "audio-decode": {
+      "optional": true
+    },
+    "jimp": {
+      "optional": true
+    },
+    "link-preview-js": {
+      "optional": true
+    },
+    "sharp": {
+      "optional": true
+    }
+  },
+  "packageManager": "yarn@1.22.19",
+  "directories": {
+    "lib": "lib"
+  }
+}
